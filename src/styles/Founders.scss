@@ -1,0 +1,41 @@
+@import "colors";
+
+.founder {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(75, 71, 71);
+
+
+    >div {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: aliceblue;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+
+        >img {
+            border-radius: 100%;
+        }
+
+        >h3 {
+            font-size: 1.3rem;
+            padding: 2rem 0 1rem 0;
+
+        }
+
+        >p {
+            letter-spacing: 3px;
+            font-size: 0.8rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 200%;
+
+        }
+
+
+
+    }
+}
